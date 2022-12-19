@@ -1,4 +1,4 @@
-# Daily-paid-credit-card-fee
+# daily-paid-credit-card-fee
 ![omori_futan_man](https://user-images.githubusercontent.com/26818923/208406392-93e82352-fb06-44a5-85b3-d922ef8ea8db.png)
 
 
