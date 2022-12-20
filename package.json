@@ -1,0 +1,29 @@
+{
+  "name": "daily-paid-credit-card-fee",
+  "version": "1.0.0",
+  "description": "![omori_futan_man](https://user-images.githubusercontent.com/26818923/208406392-93e82352-fb06-44a5-85b3-d922ef8ea8db.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemono/daily-paid-credit-card-fee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemono/daily-paid-credit-card-fee/issues"
+  },
+  "homepage": "https://github.com/kemono/daily-paid-credit-card-fee#readme",
+  "dependencies": {
+    "@types/jest": "^29.2.4",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  }
+}
