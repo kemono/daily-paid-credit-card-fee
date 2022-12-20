@@ -6,5 +6,5 @@ export function bindCurrentValue() {
     const indebteedness = Number((<HTMLSelectElement>document.getElementById('indebteedness')).value);
     const rate = Number((<HTMLSelectElement>document.getElementById('rate')).value);
 
-    return (<HTMLSelectElement>document.getElementById('result')).value = dailyPaid(indebteedness, rate);
+    return (<HTMLSelectElement>document.getElementById('result')).value = String(dailyPaid(indebteedness, rate));
 }
