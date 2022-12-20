@@ -8,3 +8,17 @@ export function bindCurrentValue() {
 
     return (<HTMLSelectElement>document.getElementById('result')).value = String(dailyPaid(indebteedness, rate));
 }
+
+export function applyUrlParameter() {
+    const params = (new URL(window.location.href)).searchParams;
+
+    const indebteedness = params.get('indebteedness');
+    if(indebteedness !== undefined){
+        (<HTMLSelectElement>document.getElementById('indebteedness')).value = indebteedness;
+    }
+
+    const rate = params.get('rate');
+    if(rate){
+        (<HTMLSelectElement>document.getElementById('rate')).value = rate;
+    }
+}
