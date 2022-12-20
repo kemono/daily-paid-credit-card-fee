@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>1日分の費用計算</title>
+    <script>var exports = {"__esModule": true};</script>
+    <script src="main.js"></script>
   </head>
 
   <div>
-    借金総額 : <input id="indebteedness" type="number" min="0" value="0">
-    年利 : <input id="rate" type="number" min="0" step="0.01" value="0">
+    借金総額 : <input id="indebteedness" type="number" min="0" value="495000" oninput="exports.bindCurrentValue()">
+    年利 : <input id="rate" type="number" min="0" step="0.01" value="0.15" oninput="exports.bindCurrentValue()">
 
     <br>
     日利金額(円) : <input id="result" type="number" readonly="readonly" value="0">
+
+    <script>exports.bindCurrentValue()</script>
   </div>
 
 </html>
